@@ -1,14 +1,6 @@
+def Process():
+    number= int(input("Enter any number of your choice: "))
 
-import numbers
-
-
-# def userInput():
-number= int(input("Enter any number of your choice: "))
-
-
-def Process(number):
-    # userInput()
-    # for number in range(100):
     if number %3==0 and number%5==0:
         print("FizzBuzz")
      
@@ -22,4 +14,4 @@ def Process(number):
         print(number)
 
 
-Process(number)
+Process()
